@@ -229,6 +229,150 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://xingli.me/2018/10/26/BDD/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xing Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trip in Java">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/26/BDD/" itemprop="url">BDD</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-26T15:24:43+08:00">
+                2018-10-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="BDD"><a href="#BDD" class="headerlink" title="BDD"></a>BDD</h1><p>TDD是对于测试用例进行测试，实践中，给一个类测试的时候，经常陷入问自己该写什么测试用例的困境。BDD从产品需求开始测试。<br>BDD 可以解决TDD中测试什么的问题<br>TDD的好处，迭代，全绿，每次通过一个，重构一次的流程如何和BDD框架进行结合，是需要实践中掌握的。</p>
+<h2 id="BDD要素"><a href="#BDD要素" class="headerlink" title="BDD要素"></a>BDD要素</h2><h3 id="思路上的改变"><a href="#思路上的改变" class="headerlink" title="思路上的改变"></a>思路上的改变</h3><p>和TDD不同的是，我们不是要书写测试用例，而是描述软件行为。对于程序员来说，需要思路上的转变。</p>
+<ul>
+<li>Requirements should be convert into user stories that can define concret examples.</li>
+<li>Each examples should be a valid user scenario rather than a mere test case.</li>
+<li>An awereness of need to write ‘the specification of behavior of a class’ rather than ‘the unit test of a class’.</li>
+<li>An understanding of ‘role-feature-reson’ and ‘given-when-then’ formular.</li>
+</ul>
+<h3 id="具体对应关系"><a href="#具体对应关系" class="headerlink" title="具体对应关系"></a>具体对应关系</h3><h4 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h4><p>The Product Owner translationing user story into a serious features.<br>一个功能，一个用户故事。一个feature就是一个<em>In order to, as a ,I want</em></p>
+<h4 id="Scenarios"><a href="#Scenarios" class="headerlink" title="Scenarios"></a>Scenarios</h4><p>The perspective of person the Feature is intended to serve. 场景<br>How will the application Break?</p>
+<blockquote>
+<p>一句话场景(如果超过一句话描述，就多了)</p>
+</blockquote>
+<h4 id="step"><a href="#step" class="headerlink" title="step"></a>step</h4><p>为了增加可读性和可重用性，多加and，并且让step尽量模板化。<br>为软件行为做描述，而不是作为开发人员写测试用例。</p>
+<h2 id="如何写用户故事"><a href="#如何写用户故事" class="headerlink" title="如何写用户故事"></a>如何写用户故事</h2><h3 id="书写用户故事"><a href="#书写用户故事" class="headerlink" title="书写用户故事"></a>书写用户故事</h3><ol>
+<li>抽取场景中的关键流程</li>
+<li>丰富流程分支</li>
+<li>抽取出用户故事，进行拆分</li>
+<li>继续拆分用户故事，到适当的粒度</li>
+</ol>
+<h3 id="用户故事的注意事项"><a href="#用户故事的注意事项" class="headerlink" title="用户故事的注意事项"></a>用户故事的注意事项</h3><ol>
+<li>故事要小，相互独立</li>
+<li>如何拆分用户故事是最为关键的。</li>
+<li>不要让用户故事过早涉及到UI</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://xingli.me/2018/10/25/hello-world/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -390,7 +534,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
